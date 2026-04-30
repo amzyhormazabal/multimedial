@@ -2,19 +2,59 @@
 <html lang="es">
 
 <head>
+
+<meta charset="UTF-8">
+
 <title>Contacto</title>
 
 <style>
 
+/* Estilo general */
+
 body{
   background-color: black;
   color: white;
-  text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  margin: 100;
 }
+
+/* Contenedor central */
+
+.contenedor{
+  text-align: center;
+}
+
+/* Imagen */
+
+img{
+  width: 300px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* Título */
+
+h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+/* Enlaces */
 
 a{
   color: red;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 </style>
@@ -23,20 +63,28 @@ a{
 
 <body>
 
+<div class="contenedor">
+
 <h1>Contacto</h1>
 
 <img src="img/1000143465.jpg"
-alt="Imagen de contacto"
-width="300">
+alt="Imagen de contacto">
 
-<p>Email: amzymc2003@gmail.com</p>
+<p>Gmail: amzymc2003@gmail.com</p>
 
-<p>Instagram: @arte_amzy</p>
+<p>
+Instagram:
+<a href="https://www.instagram.com/arte_amzy" target="_blank">
+@arte_amzy
+</a>
+</p>
 
 <br>
 
 <a href="index.html">Inicio</a><br>
 <a href="obra.html">Obra</a>
+
+</div>
 
 </body>
 
