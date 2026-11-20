@@ -1,87 +1,64 @@
-# multimedial
-#### Exploracion creativa de arte, tecnologia y medios digitales interactivos
+# Multimedial
 
-### index
-## Unidad I.  [Hipervícunlo](#unidad-i--hipervicunlo-) <br> 
+#### Exploración creativa de arte, tecnología y medios digitales interactivos
 
-5. [Mi sitio web portafolio](https://amzyhormazabal.github.io/multimedial/w/index.html)
+## Índice
 
-## Unidad II. [Programación visual creativa basada en nodos](#programación-visual-creativa-basada-en-nodos) <br>
-1. [Intro ToucDesigner](#1-intro-a-touchdesigner) <br>
-2. [Ejercicios:](#2-canasta-de-ejercicios) <br>
-##### Nube de puntos con Pop basada en imágenes, Lsystem, Mapping básico 
+- [Unidad I](#unidad-i)
+- [Unidad II](#unidad-ii)
+- [Portafolio](https://amzyhormazabal.github.io/multimedial/w/index.html)
 
+## Unidad I
 
-ejercicio 1, semana 1
+**BITÁCORA / CONTENIDOS**
 
-```
-<!DOCTYPE html>
-<!-- Indica al navegador que este documento usa HTML5 -->
+### 01 — Mi primera página
 
-<html>
-<!-- Inicio del documento HTML -->
+**HTML · PRIMEROS PASOS**
 
-<head>
-<!-- Sección donde van metadatos, título y estilos -->
+Primer acercamiento a la creación de una página web mediante HTML. En este ejercicio se trabaja con la estructura básica del documento y la organización de sus contenidos.
 
-<meta charset="UTF-8">
-<!-- Define la codificación de caracteres para que se vean bien tildes y símbolos -->
+### 02 — Enlaces — Links
 
-<title>Multimedial</title>
-<!-- Título de la página que aparece en la pestaña del navegador -->
+**NAVEGACIÓN**
 
-<style>
-/* Aquí comienza la sección de estilos CSS que define la apariencia visual */
+Exploración de los enlaces para conectar documentos y permitir la navegación entre páginas. En el código inicial se utilizó un enlace con el texto “MÁSCARAS” que dirigía a `obra.html`.
 
-body{
-/* "body" se refiere a todo el contenido visible de la página */
+### 03 — Mini sitio: tres páginas conectadas
 
-  background-color: white;
-  /* Define que el fondo de toda la página sea blanco */
+**ESTRUCTURA · CONEXIONES**
 
-  color: black;
-  /* Define que el color del texto sea negro */
+Organización de un pequeño sitio web compuesto por tres páginas relacionadas entre sí mediante un sistema de navegación.
 
-  margin: 0;
-  /* Elimina los márgenes que los navegadores agregan por defecto */
+- [Página de inicio](index.html)
+- [Unidad I](unidad1.html)
+- [Portafolio](portafolio.html)
 
-  height: 100vh;
-  /* Hace que el alto del cuerpo sea igual al 100% de la altura de la pantalla */
+Estas tres páginas forman la estructura inicial de esta bitácora.
 
-  display: flex;
-  /* Activa el sistema Flexbox para organizar y centrar elementos */
+### 04 — CSS intermedio
 
-  justify-content: center;
-  /* Centra el contenido horizontalmente */
+**CSS · INTERACCIÓN · LAYOUT**
 
-  align-items: center;
-  /* Centra el contenido verticalmente */
+Aplicación de estilos para definir colores, tipografías, espacios, distribución y adaptación de los elementos de la página. También se incorporan estados de interacción, como el cambio visual de los enlaces al pasar el cursor.
 
-  font-family: Arial, sans-serif;
-  /* Define la tipografía del texto */
+### 05 — Sitio web experimental / Portafolio
 
-  font-size: 60px;
-  /* Define el tamaño grande del texto */
+**PROYECTO PERSONAL**
 
-}
-/* Fin de las reglas de estilo del body */
+Espacio para reunir exploraciones y trabajos personales, incluyendo el desarrollo de una propuesta audiovisual y su lenguaje visual.
 
-</style>
-<!-- Fin de la sección de estilos -->
+[Portafolio](https://amzyhormazabal.github.io/multimedial/w/index.html)
 
-</head>
-<!-- Fin de la sección head -->
+## Unidad II
 
-<body>
-<!-- Inicio del contenido visible de la página -->
+### Programación visual creativa basada en nodos
 
-MULTIMEDIAL
-<!-- Texto que aparece en el centro de la pantalla -->
+1. **Intro TouchDesigner**
+2. **Ejercicios**
 
-</body>
-<!-- Fin del contenido visible -->
+Nube de puntos con Pop basada en imágenes, Lsystem y Mapping básico.
 
-</html>
-<!-- Fin del documento HTML -->
+### Ejercicio 1 — Semana 1
 
-```
+![Ejercicio final de Unidad II](img/LA.gif)
