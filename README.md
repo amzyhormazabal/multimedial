@@ -61,4 +61,4 @@ Nube de puntos con Pop basada en imágenes, Lsystem y Mapping básico.
 
 ### Ejercicio 1 — Semana 1
 
-![Ejercicio final de Unidad II](img/LA.gif)
+[![Ejercicio final de Unidad II](https://giphy.com/gifs/aAGVirKI5qF5B7cbgq)](https://giphy.com/gifs/aAGVirKI5qF5B7cbgq)
